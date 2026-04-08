@@ -1,0 +1,15 @@
+{
+    "include": [
+        "backend"
+    ],
+    "executionEnvironments": [
+        {
+            "root": "backend",
+            "extraPaths": [
+                "."
+            ]
+        }
+    ],
+    "reportMissingImports": "none",
+    "reportMissingModuleSource": "none"
+}

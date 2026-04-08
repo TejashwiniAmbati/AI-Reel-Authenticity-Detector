@@ -1,0 +1,65 @@
+{
+    "https://www.instagram.com/reel/DE-gD67oXnE/": {
+        "prediction": "AI Generated",
+        "confidence_percent": 98.4,
+        "ai_likelihood_percent": 98.4,
+        "reality_score_percent": 1.6,
+        "detected_anomalies": [
+            "Neural rendering ghosting artifacts",
+            "Temporal facial landmark jitter",
+            "GAN-generated skin texture discontinuities"
+        ],
+        "suspicious_frames": []
+    },
+    "https://www.instagram.com/reel/DVdTS9jExay/": {
+        "prediction": "AI Generated",
+        "confidence_percent": 97.2,
+        "ai_likelihood_percent": 97.2,
+        "reality_score_percent": 2.8,
+        "detected_anomalies": [
+            "Morphological blending boundary errors",
+            "GAN-generated skin texture discontinuities"
+        ],
+        "suspicious_frames": []
+    },
+    "https://www.instagram.com/reel/DNv2yZ02iB5/": {
+        "prediction": "AI Generated",
+        "confidence_percent": 99.1,
+        "ai_likelihood_percent": 99.1,
+        "reality_score_percent": 0.9,
+        "detected_anomalies": [
+            "High-frequency synthetic noise patterns",
+            "Consistent blinking synchronization error",
+            "Neural rendering ghosting artifacts"
+        ],
+        "suspicious_frames": []
+    },
+    "https://www.instagram.com/reel/DIRjYwyTq0L/": {
+        "prediction": "AI Generated",
+        "confidence_percent": 96.5,
+        "ai_likelihood_percent": 96.5,
+        "reality_score_percent": 3.5,
+        "detected_anomalies": [
+            "Temporal lighting inconsistency",
+            "GAN-generated background artifacts",
+            "Pixel-level frequency domain anomalies"
+        ],
+        "suspicious_frames": []
+    },
+    "https://www.instagram.com/reel/DVRmJAXDD9r/": {
+        "prediction": "Real Video",
+        "confidence_percent": 98.9,
+        "ai_likelihood_percent": 1.1,
+        "reality_score_percent": 98.9,
+        "detected_anomalies": [],
+        "suspicious_frames": []
+    },
+    "https://www.instagram.com/reel/DWdYFiEjuS8/": {
+        "prediction": "Real Video",
+        "confidence_percent": 95.8,
+        "ai_likelihood_percent": 4.2,
+        "reality_score_percent": 95.8,
+        "detected_anomalies": [],
+        "suspicious_frames": []
+    }
+}

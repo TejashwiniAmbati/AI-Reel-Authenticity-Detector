@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #020617;
+  color: #f8fafc;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow-x: hidden;
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-cyber-card backdrop-blur-md border border-cyber-border rounded-xl;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+
+  .neon-text {
+    @apply text-cyber-blue;
+    text-shadow: 0 0 10px rgba(0, 242, 255, 0.5);
+  }
+
+  .neon-border {
+    @apply border border-cyber-blue/30;
+    box-shadow: 0 0 15px rgba(0, 242, 255, 0.2);
+  }
+
+  .btn-cyber {
+    @apply relative overflow-hidden px-6 py-3 rounded-lg font-bold transition-all duration-300;
+    background: linear-gradient(90deg, #00f2ff, #bc13fe);
+  }
+
+  .btn-cyber:hover {
+    @apply scale-105;
+    box-shadow: 0 0 20px rgba(0, 242, 255, 0.6);
+  }
+}
+
+.scan-line {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #00f2ff;
+  box-shadow: 0 0 15px #00f2ff;
+  z-index: 10;
+  animation: scan 3s ease-in-out infinite;
+}
+
+@keyframes scan {
+  0%, 100% { top: 0% }
+  50% { top: 100% }
+}
+
+.grid-background {
+  background-image: linear-gradient(rgba(0, 242, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 242, 255, 0.05) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
